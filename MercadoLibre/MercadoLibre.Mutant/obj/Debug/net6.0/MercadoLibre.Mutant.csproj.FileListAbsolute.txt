@@ -1,0 +1,15 @@
+G:\WorkCopy\PruebasWork\MercadoLibre\MercadoLibre.Mutant\bin\Debug\net6.0\MercadoLibre.Mutant.exe
+G:\WorkCopy\PruebasWork\MercadoLibre\MercadoLibre.Mutant\bin\Debug\net6.0\MercadoLibre.Mutant.deps.json
+G:\WorkCopy\PruebasWork\MercadoLibre\MercadoLibre.Mutant\bin\Debug\net6.0\MercadoLibre.Mutant.runtimeconfig.json
+G:\WorkCopy\PruebasWork\MercadoLibre\MercadoLibre.Mutant\bin\Debug\net6.0\MercadoLibre.Mutant.dll
+G:\WorkCopy\PruebasWork\MercadoLibre\MercadoLibre.Mutant\bin\Debug\net6.0\ref\MercadoLibre.Mutant.dll
+G:\WorkCopy\PruebasWork\MercadoLibre\MercadoLibre.Mutant\bin\Debug\net6.0\MercadoLibre.Mutant.pdb
+G:\WorkCopy\PruebasWork\MercadoLibre\MercadoLibre.Mutant\obj\Debug\net6.0\MercadoLibre.Mutant.csproj.AssemblyReference.cache
+G:\WorkCopy\PruebasWork\MercadoLibre\MercadoLibre.Mutant\obj\Debug\net6.0\MercadoLibre.Mutant.GeneratedMSBuildEditorConfig.editorconfig
+G:\WorkCopy\PruebasWork\MercadoLibre\MercadoLibre.Mutant\obj\Debug\net6.0\MercadoLibre.Mutant.AssemblyInfoInputs.cache
+G:\WorkCopy\PruebasWork\MercadoLibre\MercadoLibre.Mutant\obj\Debug\net6.0\MercadoLibre.Mutant.AssemblyInfo.cs
+G:\WorkCopy\PruebasWork\MercadoLibre\MercadoLibre.Mutant\obj\Debug\net6.0\MercadoLibre.Mutant.csproj.CoreCompileInputs.cache
+G:\WorkCopy\PruebasWork\MercadoLibre\MercadoLibre.Mutant\obj\Debug\net6.0\MercadoLibre.Mutant.dll
+G:\WorkCopy\PruebasWork\MercadoLibre\MercadoLibre.Mutant\obj\Debug\net6.0\ref\MercadoLibre.Mutant.dll
+G:\WorkCopy\PruebasWork\MercadoLibre\MercadoLibre.Mutant\obj\Debug\net6.0\MercadoLibre.Mutant.pdb
+G:\WorkCopy\PruebasWork\MercadoLibre\MercadoLibre.Mutant\obj\Debug\net6.0\MercadoLibre.Mutant.genruntimeconfig.cache
