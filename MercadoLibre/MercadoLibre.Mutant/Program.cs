@@ -10,7 +10,7 @@ namespace MercadoLibre.Mutant
 
             Console.WriteLine("Please, type your dna, input next format: {\"valor1\",\"valor2\",..}:");
             string? input = Console.ReadLine();
-            
+
             try
             {
                 if (ValidateInputString(input))
@@ -19,10 +19,6 @@ namespace MercadoLibre.Mutant
                         ShowMessage("Information: Dna is positive for be a Mutant");
                     else
                         ShowMessage("Information: Dna is negative for be a Mutant");
-                }
-                else
-                {
-                    ShowMessage("Error: The input format is wrong");
                 }
             }
             catch (System.Exception ex)
@@ -36,7 +32,7 @@ namespace MercadoLibre.Mutant
         {
             if (!String.IsNullOrEmpty(inputString))
             {
-                string patternInput = @"^\{\""[ACGT]*\""([\,]?(\""[ACGT]*\""))*\}$/i";
+                string patternInput = @"^\{\""[ACGT]*\""([\,]?(\""[ACGT]*\""))*\}$";
                 Match matchRegExpr = Regex.Match(inputString, patternInput);
                 if (matchRegExpr.Success)
                 {
@@ -57,7 +53,19 @@ namespace MercadoLibre.Mutant
 
         static bool IsMutant(string[] dna)
         {
-            return ((FindSequenceHorizontally(dna) + FindSequenceVertically(dna) + FindSequenceSide(dna)) > 1);
+            int numSequences = FindSequenceHorizontally(dna);
+            if  (numSequences > 1)
+                return true;
+            
+            numSequences += FindSequenceVertically(dna);
+            if  (numSequences > 1)
+                    return true;
+
+            numSequences += FindSequenceSide(dna);
+            if  (numSequences > 1)
+                    return true;
+
+            return false;
         }
 
         static int FindSequenceHorizontally(string[] dna)
@@ -68,6 +76,11 @@ namespace MercadoLibre.Mutant
 
         static int FindSequenceVertically(string[] dna)
         {
+            string[,] dnaMatrix = new string[dna.Length, dna.Length];
+            for (int i=0; i< dna.Length; i++)
+            {
+                string[] newRow = dna[i].Split();
+            }
             return 0;
         }
 
