@@ -1,0 +1,7 @@
+G:\WorkCopy\PruebasWork\MercadoLibre\MercadoLibre.Mutant.APIREST\InfrastructureAsCode\lambda-function\lambdaMutant\src\lambdaMutant\bin\Release\net6.0\publish\lambdaMutant.deps.json
+G:\WorkCopy\PruebasWork\MercadoLibre\MercadoLibre.Mutant.APIREST\InfrastructureAsCode\lambda-function\lambdaMutant\src\lambdaMutant\bin\Release\net6.0\publish\lambdaMutant.runtimeconfig.json
+G:\WorkCopy\PruebasWork\MercadoLibre\MercadoLibre.Mutant.APIREST\InfrastructureAsCode\lambda-function\lambdaMutant\src\lambdaMutant\bin\Release\net6.0\publish\lambdaMutant.pdb
+G:\WorkCopy\PruebasWork\MercadoLibre\MercadoLibre.Mutant.APIREST\InfrastructureAsCode\lambda-function\lambdaMutant\src\lambdaMutant\bin\Release\net6.0\publish\Amazon.Lambda.APIGatewayEvents.dll
+G:\WorkCopy\PruebasWork\MercadoLibre\MercadoLibre.Mutant.APIREST\InfrastructureAsCode\lambda-function\lambdaMutant\src\lambdaMutant\bin\Release\net6.0\publish\Amazon.Lambda.Core.dll
+G:\WorkCopy\PruebasWork\MercadoLibre\MercadoLibre.Mutant.APIREST\InfrastructureAsCode\lambda-function\lambdaMutant\src\lambdaMutant\bin\Release\net6.0\publish\Amazon.Lambda.Serialization.SystemTextJson.dll
+G:\WorkCopy\PruebasWork\MercadoLibre\MercadoLibre.Mutant.APIREST\InfrastructureAsCode\lambda-function\lambdaMutant\src\lambdaMutant\bin\Release\net6.0\publish\lambdaMutant.dll
