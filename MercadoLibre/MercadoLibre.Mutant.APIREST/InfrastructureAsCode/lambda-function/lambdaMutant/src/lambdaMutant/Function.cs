@@ -1,7 +1,5 @@
 using Amazon.Lambda.Core;
 using Amazon.Lambda.APIGatewayEvents;
-using System.Text.RegularExpressions;
-//using System.Text.JSON.Serialization;
 
 // Assembly attribute to enable the Lambda function's JSON input to be converted into a .NET class.
 [assembly: LambdaSerializer(typeof(Amazon.Lambda.Serialization.SystemTextJson.DefaultLambdaJsonSerializer))]
@@ -11,13 +9,6 @@ namespace lambdaMutant;
 public class Function
 {
     
-    /* [JsonSerializable(typeof(APIGatewayHttpApiV2ProxyRequest))]
-    [JsonSerializable(typeof(APIGatewayHttpApiV2ProxyResponse))]
-    public partial class HttpApiJsonSerializerContext : JsonSerializerContext
-    {
-
-    } */
-
     /// <summary>
     /// This is function validates DNAs for humans or mutants
     /// </summary>
@@ -32,18 +23,20 @@ public class Function
         {
             if (request.Body != null && request.Body.Contains("dna"))
             {
-                if (ValidateInputString(request.Body))
-                {
-                    string inputRefined = RefineString(request.Body);
-                    if (IsMutant(inputRefined.Split(',')))
-                        response = ReturnResponse(200, @"{ Result: DNS is postive for be a Mutant }");
-                }
+                context.Logger.Log("Valor Body: "+ request.Body);
+                string[] arrayData = ConvertJSONToArray(request.Body);
+                if (IsMutant(arrayData))
+                    response = ReturnResponse(200, @"{ ""Result"": ""DNS is positive for be a Mutant"" }");
+                else
+                    response = ReturnResponse(403, @"{ ""Result"": ""DNS is negative for be a Mutant"" }");
             }
+            else
+                 context.Logger.Log("Body is empty or null");
         }
         catch (System.Exception ex)
         {
-            ReturnResponse(500, String.Format(@"{ Result: Error, description: {0} }", ex.ToString())); 
-            context.Logger.LogError(String.Format("Description: {0}", ex.ToString()));     
+            ReturnResponse(500, String.Format(@"{ ""Result"": ""Error, description: {0} ""}", ex.ToString())); 
+            context.Logger.Log(String.Format("Description: {0}", ex.ToString()));     
             throw;
         }
         
@@ -176,32 +169,15 @@ public class Function
         return arrayString;
     }
     
-    static string RefineString(string input)
+    static string[] ConvertJSONToArray(string jsonInput)
     {
-        string inputRefined = input.Replace("{", String.Empty);
+        string inputRefined = jsonInput.Substring(jsonInput.IndexOf('['));
         inputRefined = inputRefined.Replace("}",String.Empty);
+        inputRefined = inputRefined.Replace("[",String.Empty);
+        inputRefined = inputRefined.Replace("]",String.Empty);
         inputRefined = inputRefined.Replace('"',' ');
         inputRefined = inputRefined.Replace(" ", String.Empty);
-        return inputRefined;
-    }
-
-    static bool ValidateInputString(string? inputString)
-    {
-        if (!String.IsNullOrEmpty(inputString))
-        {
-            string patternInput = @"^\{\""[ACGT]*\""([\,]?(\""[ACGT]*\""))*\}$";
-            Match matchRegExpr = Regex.Match(inputString, patternInput);
-            if (matchRegExpr.Success)
-            {
-                return true;
-            }
-            else
-                ReturnResponse(500, @"{ Result: Error, The input format is wrong }");
-        }
-        else
-            ReturnResponse(500, @"{ Result: Error, The input format is wrong }");
-        
-        return false;
+        return inputRefined.Split(",");
     }
 
     enum NitrogenBase{
