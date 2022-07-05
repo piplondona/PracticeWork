@@ -1,0 +1,10 @@
+G:\WorkCopy\PruebasWork\MercadoLibre\MercadoLibre.Mutant.Nivel3\Controller\Lambda-Function\LambdaMutantML_Nivel3\src\LambdaMutantML_Nivel3\bin\Release\net6.0\publish\LambdaMutantML_Nivel3.deps.json
+G:\WorkCopy\PruebasWork\MercadoLibre\MercadoLibre.Mutant.Nivel3\Controller\Lambda-Function\LambdaMutantML_Nivel3\src\LambdaMutantML_Nivel3\bin\Release\net6.0\publish\LambdaMutantML_Nivel3.runtimeconfig.json
+G:\WorkCopy\PruebasWork\MercadoLibre\MercadoLibre.Mutant.Nivel3\Controller\Lambda-Function\LambdaMutantML_Nivel3\src\LambdaMutantML_Nivel3\bin\Release\net6.0\publish\LambdaMutantML_Nivel3.pdb
+G:\WorkCopy\PruebasWork\MercadoLibre\MercadoLibre.Mutant.Nivel3\Controller\Lambda-Function\LambdaMutantML_Nivel3\src\LambdaMutantML_Nivel3\bin\Release\net6.0\publish\Amazon.Lambda.APIGatewayEvents.dll
+G:\WorkCopy\PruebasWork\MercadoLibre\MercadoLibre.Mutant.Nivel3\Controller\Lambda-Function\LambdaMutantML_Nivel3\src\LambdaMutantML_Nivel3\bin\Release\net6.0\publish\Amazon.Lambda.Core.dll
+G:\WorkCopy\PruebasWork\MercadoLibre\MercadoLibre.Mutant.Nivel3\Controller\Lambda-Function\LambdaMutantML_Nivel3\src\LambdaMutantML_Nivel3\bin\Release\net6.0\publish\Amazon.Lambda.DynamoDBEvents.dll
+G:\WorkCopy\PruebasWork\MercadoLibre\MercadoLibre.Mutant.Nivel3\Controller\Lambda-Function\LambdaMutantML_Nivel3\src\LambdaMutantML_Nivel3\bin\Release\net6.0\publish\Amazon.Lambda.Serialization.SystemTextJson.dll
+G:\WorkCopy\PruebasWork\MercadoLibre\MercadoLibre.Mutant.Nivel3\Controller\Lambda-Function\LambdaMutantML_Nivel3\src\LambdaMutantML_Nivel3\bin\Release\net6.0\publish\AWSSDK.Core.dll
+G:\WorkCopy\PruebasWork\MercadoLibre\MercadoLibre.Mutant.Nivel3\Controller\Lambda-Function\LambdaMutantML_Nivel3\src\LambdaMutantML_Nivel3\bin\Release\net6.0\publish\AWSSDK.DynamoDBv2.dll
+G:\WorkCopy\PruebasWork\MercadoLibre\MercadoLibre.Mutant.Nivel3\Controller\Lambda-Function\LambdaMutantML_Nivel3\src\LambdaMutantML_Nivel3\bin\Release\net6.0\publish\LambdaMutantML_Nivel3.dll

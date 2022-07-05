@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "t/NCreaT4DUDWIXHZw+3WEskyHIeLFuXsKHoQk0KrEtNfOajlr63ubDX/VwmgzM/t984W5GodvY9REmOvIAr+Q==",
+  "success": true,
+  "projectFilePath": "G:\\WorkCopy\\PruebasWork\\MercadoLibre\\MercadoLibre.Mutant.Nivel3\\Controller\\Lambda-Function\\LambdaMutantML_Nivel3\\src\\LambdaMutantML_Nivel3\\LambdaMutantML_Nivel3.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\amazon.lambda.apigatewayevents\\2.4.1\\amazon.lambda.apigatewayevents.2.4.1.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\amazon.lambda.core\\2.1.0\\amazon.lambda.core.2.1.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\amazon.lambda.dynamodbevents\\2.1.1\\amazon.lambda.dynamodbevents.2.1.1.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\amazon.lambda.serialization.systemtextjson\\2.3.0\\amazon.lambda.serialization.systemtextjson.2.3.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\awssdk.core\\3.7.11.3\\awssdk.core.3.7.11.3.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\awssdk.dynamodbv2\\3.7.3.35\\awssdk.dynamodbv2.3.7.3.35.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.app.runtime.linux-x64\\6.0.2\\microsoft.netcore.app.runtime.linux-x64.6.0.2.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.linux-x64\\6.0.2\\microsoft.aspnetcore.app.runtime.linux-x64.6.0.2.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.app.crossgen2.win-x64\\6.0.2\\microsoft.netcore.app.crossgen2.win-x64.6.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
