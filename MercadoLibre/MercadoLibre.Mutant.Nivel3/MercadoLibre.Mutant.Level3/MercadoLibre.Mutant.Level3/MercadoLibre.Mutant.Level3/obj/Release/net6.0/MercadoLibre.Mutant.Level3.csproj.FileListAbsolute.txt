@@ -1,0 +1,14 @@
+G:\WorkCopy\PruebasWork\MercadoLibre\MercadoLibre.Mutant.Nivel3\MercadoLibre.Mutant.Level3\MercadoLibre.Mutant.Level3\MercadoLibre.Mutant.Level3\bin\Release\net6.0\MercadoLibre.Mutant.Level3.deps.json
+G:\WorkCopy\PruebasWork\MercadoLibre\MercadoLibre.Mutant.Nivel3\MercadoLibre.Mutant.Level3\MercadoLibre.Mutant.Level3\MercadoLibre.Mutant.Level3\bin\Release\net6.0\MercadoLibre.Mutant.Level3.runtimeconfig.json
+G:\WorkCopy\PruebasWork\MercadoLibre\MercadoLibre.Mutant.Nivel3\MercadoLibre.Mutant.Level3\MercadoLibre.Mutant.Level3\MercadoLibre.Mutant.Level3\bin\Release\net6.0\MercadoLibre.Mutant.Level3.dll
+G:\WorkCopy\PruebasWork\MercadoLibre\MercadoLibre.Mutant.Nivel3\MercadoLibre.Mutant.Level3\MercadoLibre.Mutant.Level3\MercadoLibre.Mutant.Level3\bin\Release\net6.0\ref\MercadoLibre.Mutant.Level3.dll
+G:\WorkCopy\PruebasWork\MercadoLibre\MercadoLibre.Mutant.Nivel3\MercadoLibre.Mutant.Level3\MercadoLibre.Mutant.Level3\MercadoLibre.Mutant.Level3\bin\Release\net6.0\MercadoLibre.Mutant.Level3.pdb
+G:\WorkCopy\PruebasWork\MercadoLibre\MercadoLibre.Mutant.Nivel3\MercadoLibre.Mutant.Level3\MercadoLibre.Mutant.Level3\MercadoLibre.Mutant.Level3\obj\Release\net6.0\MercadoLibre.Mutant.Level3.csproj.AssemblyReference.cache
+G:\WorkCopy\PruebasWork\MercadoLibre\MercadoLibre.Mutant.Nivel3\MercadoLibre.Mutant.Level3\MercadoLibre.Mutant.Level3\MercadoLibre.Mutant.Level3\obj\Release\net6.0\MercadoLibre.Mutant.Level3.GeneratedMSBuildEditorConfig.editorconfig
+G:\WorkCopy\PruebasWork\MercadoLibre\MercadoLibre.Mutant.Nivel3\MercadoLibre.Mutant.Level3\MercadoLibre.Mutant.Level3\MercadoLibre.Mutant.Level3\obj\Release\net6.0\MercadoLibre.Mutant.Level3.AssemblyInfoInputs.cache
+G:\WorkCopy\PruebasWork\MercadoLibre\MercadoLibre.Mutant.Nivel3\MercadoLibre.Mutant.Level3\MercadoLibre.Mutant.Level3\MercadoLibre.Mutant.Level3\obj\Release\net6.0\MercadoLibre.Mutant.Level3.AssemblyInfo.cs
+G:\WorkCopy\PruebasWork\MercadoLibre\MercadoLibre.Mutant.Nivel3\MercadoLibre.Mutant.Level3\MercadoLibre.Mutant.Level3\MercadoLibre.Mutant.Level3\obj\Release\net6.0\MercadoLibre.Mutant.Level3.csproj.CoreCompileInputs.cache
+G:\WorkCopy\PruebasWork\MercadoLibre\MercadoLibre.Mutant.Nivel3\MercadoLibre.Mutant.Level3\MercadoLibre.Mutant.Level3\MercadoLibre.Mutant.Level3\obj\Release\net6.0\MercadoLibre.Mutant.Level3.dll
+G:\WorkCopy\PruebasWork\MercadoLibre\MercadoLibre.Mutant.Nivel3\MercadoLibre.Mutant.Level3\MercadoLibre.Mutant.Level3\MercadoLibre.Mutant.Level3\obj\Release\net6.0\ref\MercadoLibre.Mutant.Level3.dll
+G:\WorkCopy\PruebasWork\MercadoLibre\MercadoLibre.Mutant.Nivel3\MercadoLibre.Mutant.Level3\MercadoLibre.Mutant.Level3\MercadoLibre.Mutant.Level3\obj\Release\net6.0\MercadoLibre.Mutant.Level3.pdb
+G:\WorkCopy\PruebasWork\MercadoLibre\MercadoLibre.Mutant.Nivel3\MercadoLibre.Mutant.Level3\MercadoLibre.Mutant.Level3\MercadoLibre.Mutant.Level3\obj\Release\net6.0\MercadoLibre.Mutant.Level3.genruntimeconfig.cache

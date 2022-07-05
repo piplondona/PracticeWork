@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "a+w7RBwsvkvlcNCkAbXLVmhuPZIWxVogSUWP8+MPQ9cBm79nadt75ucNiwWvNjfxLGnt9vEwWvJ6guZ+XTJbfg==",
+  "success": true,
+  "projectFilePath": "G:\\WorkCopy\\PruebasWork\\MercadoLibre\\MercadoLibre.Mutant.Nivel3\\MercadoLibre.Mutant.Level3\\MercadoLibre.Mutant.Level3\\MercadoLibre.Mutant.Level3\\MercadoLibre.Mutant.Level3.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\awssdk.core\\3.7.12.4\\awssdk.core.3.7.12.4.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\awssdk.dynamodbv2\\3.7.3.52\\awssdk.dynamodbv2.3.7.3.52.nupkg.sha512"
+  ],
+  "logs": []
+}

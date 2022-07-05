@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\WorkCopy\\PruebasWork\\MercadoLibre\\MercadoLibre.Mutant\\MercadoLibre.Mutant.csproj": {}
+    "g:\\WorkCopy\\PruebasWork\\MercadoLibre\\MercadoLibre.Mutant\\MercadoLibre.Mutant.csproj": {}
   },
   "projects": {
-    "G:\\WorkCopy\\PruebasWork\\MercadoLibre\\MercadoLibre.Mutant\\MercadoLibre.Mutant.csproj": {
+    "g:\\WorkCopy\\PruebasWork\\MercadoLibre\\MercadoLibre.Mutant\\MercadoLibre.Mutant.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\WorkCopy\\PruebasWork\\MercadoLibre\\MercadoLibre.Mutant\\MercadoLibre.Mutant.csproj",
+        "projectUniqueName": "g:\\WorkCopy\\PruebasWork\\MercadoLibre\\MercadoLibre.Mutant\\MercadoLibre.Mutant.csproj",
         "projectName": "MercadoLibre.Mutant",
-        "projectPath": "G:\\WorkCopy\\PruebasWork\\MercadoLibre\\MercadoLibre.Mutant\\MercadoLibre.Mutant.csproj",
+        "projectPath": "g:\\WorkCopy\\PruebasWork\\MercadoLibre\\MercadoLibre.Mutant\\MercadoLibre.Mutant.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "G:\\WorkCopy\\PruebasWork\\MercadoLibre\\MercadoLibre.Mutant\\obj\\",
+        "outputPath": "g:\\WorkCopy\\PruebasWork\\MercadoLibre\\MercadoLibre.Mutant\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "aHmx+U1T6+ZuGTbO5CoIPFb1z0VOKKorIFRCNix91HksKL/Vz694oPj//hu/e6xruDgH/OeOfpcCjOU6vzfjHw==",
+  "dgSpecHash": "50rfyduFFCjtIkcrKxUZWXskWM++gY5xdC0g5XXmqrfok+jwZdRms7sZzj9h9ZS96gpof2XAuzkKVH+uEkvlfw==",
   "success": true,
-  "projectFilePath": "G:\\WorkCopy\\PruebasWork\\MercadoLibre\\MercadoLibre.Mutant.APIREST\\InfrastructureAsCode\\lambda-function\\lambdaMutant\\src\\lambdaMutant\\lambdaMutant.csproj",
+  "projectFilePath": "g:\\WorkCopy\\PruebasWork\\MercadoLibre\\MercadoLibre.Mutant.APIREST\\InfrastructureAsCode\\lambda-function\\lambdaMutant\\src\\lambdaMutant\\lambdaMutant.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\amazon.lambda.apigatewayevents\\2.4.1\\amazon.lambda.apigatewayevents.2.4.1.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\amazon.lambda.core\\2.1.0\\amazon.lambda.core.2.1.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\amazon.lambda.serialization.systemtextjson\\2.3.0\\amazon.lambda.serialization.systemtextjson.2.3.0.nupkg.sha512",
-    "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.app.runtime.linux-x64\\6.0.2\\microsoft.netcore.app.runtime.linux-x64.6.0.2.nupkg.sha512",
-    "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.linux-x64\\6.0.2\\microsoft.aspnetcore.app.runtime.linux-x64.6.0.2.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\awssdk.core\\3.7.12.3\\awssdk.core.3.7.12.3.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\awssdk.dynamodbv2\\3.7.3.51\\awssdk.dynamodbv2.3.7.3.51.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.app.crossgen2.win-x64\\6.0.2\\microsoft.netcore.app.crossgen2.win-x64.6.0.2.nupkg.sha512"
   ],
   "logs": []

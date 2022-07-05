@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\WorkCopy\\PruebasWork\\MercadoLibre\\MercadoLibre.Mutant.APIREST\\InfrastructureAsCode\\lambda-function\\lambdaMutant\\src\\lambdaMutant\\lambdaMutant.csproj": {}
+    "g:\\WorkCopy\\PruebasWork\\MercadoLibre\\MercadoLibre.Mutant.APIREST\\InfrastructureAsCode\\lambda-function\\lambdaMutant\\src\\lambdaMutant\\lambdaMutant.csproj": {}
   },
   "projects": {
-    "G:\\WorkCopy\\PruebasWork\\MercadoLibre\\MercadoLibre.Mutant.APIREST\\InfrastructureAsCode\\lambda-function\\lambdaMutant\\src\\lambdaMutant\\lambdaMutant.csproj": {
+    "g:\\WorkCopy\\PruebasWork\\MercadoLibre\\MercadoLibre.Mutant.APIREST\\InfrastructureAsCode\\lambda-function\\lambdaMutant\\src\\lambdaMutant\\lambdaMutant.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\WorkCopy\\PruebasWork\\MercadoLibre\\MercadoLibre.Mutant.APIREST\\InfrastructureAsCode\\lambda-function\\lambdaMutant\\src\\lambdaMutant\\lambdaMutant.csproj",
+        "projectUniqueName": "g:\\WorkCopy\\PruebasWork\\MercadoLibre\\MercadoLibre.Mutant.APIREST\\InfrastructureAsCode\\lambda-function\\lambdaMutant\\src\\lambdaMutant\\lambdaMutant.csproj",
         "projectName": "lambdaMutant",
-        "projectPath": "G:\\WorkCopy\\PruebasWork\\MercadoLibre\\MercadoLibre.Mutant.APIREST\\InfrastructureAsCode\\lambda-function\\lambdaMutant\\src\\lambdaMutant\\lambdaMutant.csproj",
+        "projectPath": "g:\\WorkCopy\\PruebasWork\\MercadoLibre\\MercadoLibre.Mutant.APIREST\\InfrastructureAsCode\\lambda-function\\lambdaMutant\\src\\lambdaMutant\\lambdaMutant.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "G:\\WorkCopy\\PruebasWork\\MercadoLibre\\MercadoLibre.Mutant.APIREST\\InfrastructureAsCode\\lambda-function\\lambdaMutant\\src\\lambdaMutant\\obj\\",
+        "outputPath": "g:\\WorkCopy\\PruebasWork\\MercadoLibre\\MercadoLibre.Mutant.APIREST\\InfrastructureAsCode\\lambda-function\\lambdaMutant\\src\\lambdaMutant\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -38,6 +38,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "AWSSDK.DynamoDBv2": {
+              "target": "Package",
+              "version": "[3.7.3.51, )"
+            },
             "Amazon.Lambda.APIGatewayEvents": {
               "target": "Package",
               "version": "[2.4.1, )"
@@ -63,15 +67,7 @@
           "warn": true,
           "downloadDependencies": [
             {
-              "name": "Microsoft.AspNetCore.App.Runtime.linux-x64",
-              "version": "[6.0.2, 6.0.2]"
-            },
-            {
               "name": "Microsoft.NETCore.App.Crossgen2.win-x64",
-              "version": "[6.0.2, 6.0.2]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Runtime.linux-x64",
               "version": "[6.0.2, 6.0.2]"
             }
           ],
@@ -81,11 +77,6 @@
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
-        }
-      },
-      "runtimes": {
-        "linux-x64": {
-          "#import": []
         }
       }
     }

@@ -1,0 +1,59 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "MercadoLibre.Mutant.Level3/1.0.0": {
+        "dependencies": {
+          "AWSSDK.DynamoDBv2": "3.7.3.52"
+        },
+        "runtime": {
+          "MercadoLibre.Mutant.Level3.dll": {}
+        }
+      },
+      "AWSSDK.Core/3.7.12.4": {
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.12.4"
+          }
+        }
+      },
+      "AWSSDK.DynamoDBv2/3.7.3.52": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.12.4"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.DynamoDBv2.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.3.52"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MercadoLibre.Mutant.Level3/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AWSSDK.Core/3.7.12.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DziIQaGstXDQuIbigFConbP0bOg1y44xuV898SV0MOYx5HT4AOgi/fTLBuYj0yuy9CkPjZUNWlKa0bmtRYFTXQ==",
+      "path": "awssdk.core/3.7.12.4",
+      "hashPath": "awssdk.core.3.7.12.4.nupkg.sha512"
+    },
+    "AWSSDK.DynamoDBv2/3.7.3.52": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-celFqePrzsaxHhoCEuze518N5OtwzqNPs47igp4pPcsD3geNgr1I+VcgbRikhBQuM6DDbrPmpgcn/4ZX1iSlkw==",
+      "path": "awssdk.dynamodbv2/3.7.3.52",
+      "hashPath": "awssdk.dynamodbv2.3.7.3.52.nupkg.sha512"
+    }
+  }
+}

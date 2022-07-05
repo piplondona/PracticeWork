@@ -1,5 +1,6 @@
 using Amazon.Lambda.Core;
 using Amazon.Lambda.APIGatewayEvents;
+using lambdaMutant.Utility;
 
 // Assembly attribute to enable the Lambda function's JSON input to be converted into a .NET class.
 [assembly: LambdaSerializer(typeof(Amazon.Lambda.Serialization.SystemTextJson.DefaultLambdaJsonSerializer))]
@@ -24,7 +25,7 @@ public class Function
             if (request.Body != null && request.Body.Contains("dna"))
             {
                 context.Logger.Log("Valor Body: "+ request.Body);
-                string[] arrayData = ConvertJSONToArray(request.Body);
+                string[] arrayData = Utility.Utility.ConvertJSONToArray(request.Body);
                 if (IsMutant(arrayData))
                     response = ReturnResponse(200, @"{ ""Result"": ""DNS is positive for be a Mutant"" }");
                 else
@@ -42,7 +43,6 @@ public class Function
         
         return response;
     }
-
 
     static private APIGatewayProxyResponse ReturnResponse(int statusCode, string body)
     {
@@ -80,15 +80,15 @@ public class Function
 
     static int FindSequenceVertically(string[] dna)
     {
-        string[,] dnaMatrix = ConvertArrayUnidimensionalToMatrix(dna);
-        string[] dnaString = ConvertMatrixToArrayStringReverse(dnaMatrix);
+        string[,] dnaMatrix = Utility.Utility.ConvertArrayUnidimensionalToMatrix(dna);
+        string[] dnaString = Utility.Utility.ConvertMatrixToArrayStringReverse(dnaMatrix);
         return FindSequenceHorizontally(dnaString);
     }
 
     static int FindSequenceSide(string[] dna)
     {
         int numSequencesFinded = 0;
-        string[,] dnaMatrix = ConvertArrayUnidimensionalToMatrix(dna);
+        string[,] dnaMatrix = Utility.Utility.ConvertArrayUnidimensionalToMatrix(dna);
         string[] dnaString = new string[1];
         numSequencesFinded = GetNumsSequenceSide(dnaMatrix, 0, dnaString, 0);
         return numSequencesFinded;
@@ -138,46 +138,6 @@ public class Function
         }
             
         return numSequences;
-    }
-
-    static string[,] ConvertArrayUnidimensionalToMatrix(string[] arrayUnidimensional)
-    {
-        string[,] matrix = new string[arrayUnidimensional.Length, arrayUnidimensional.Length];
-        for (int i=0; i< arrayUnidimensional.Length; i++)
-        {
-            char[] newRow = arrayUnidimensional[i].ToCharArray();
-            for (int j = 0; j < newRow.Length; j++)
-            {
-                matrix[j,i] = newRow[j].ToString();
-            }
-        }
-
-        return matrix;
-    }
-
-    static string[] ConvertMatrixToArrayStringReverse(string[,] matrix)
-    {
-        string[] arrayString = new string[matrix.GetLongLength(1)];
-        for (int i=0; i < matrix.GetLongLength(1); i++)
-        {
-            for (int j = 0; j < matrix.GetLongLength(1); j++)
-            {
-                arrayString[i] += matrix[i,j];
-            }
-        }
-
-        return arrayString;
-    }
-    
-    static string[] ConvertJSONToArray(string jsonInput)
-    {
-        string inputRefined = jsonInput.Substring(jsonInput.IndexOf('['));
-        inputRefined = inputRefined.Replace("}",String.Empty);
-        inputRefined = inputRefined.Replace("[",String.Empty);
-        inputRefined = inputRefined.Replace("]",String.Empty);
-        inputRefined = inputRefined.Replace('"',' ');
-        inputRefined = inputRefined.Replace(" ", String.Empty);
-        return inputRefined.Split(",");
     }
 
     enum NitrogenBase{

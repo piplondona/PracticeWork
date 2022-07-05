@@ -1,0 +1,162 @@
+{
+  "format": 1,
+  "restore": {
+    "g:\\WorkCopy\\PruebasWork\\MercadoLibre\\MercadoLibre.Mutant.APIREST\\InfrastructureAsCode\\lambda-function\\lambdaMutant\\test\\lambdaMutant.Tests\\lambdaMutant.Tests.csproj": {}
+  },
+  "projects": {
+    "g:\\WorkCopy\\PruebasWork\\MercadoLibre\\MercadoLibre.Mutant.APIREST\\InfrastructureAsCode\\lambda-function\\lambdaMutant\\src\\lambdaMutant\\lambdaMutant.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "g:\\WorkCopy\\PruebasWork\\MercadoLibre\\MercadoLibre.Mutant.APIREST\\InfrastructureAsCode\\lambda-function\\lambdaMutant\\src\\lambdaMutant\\lambdaMutant.csproj",
+        "projectName": "lambdaMutant",
+        "projectPath": "g:\\WorkCopy\\PruebasWork\\MercadoLibre\\MercadoLibre.Mutant.APIREST\\InfrastructureAsCode\\lambda-function\\lambdaMutant\\src\\lambdaMutant\\lambdaMutant.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "g:\\WorkCopy\\PruebasWork\\MercadoLibre\\MercadoLibre.Mutant.APIREST\\InfrastructureAsCode\\lambda-function\\lambdaMutant\\src\\lambdaMutant\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AWSSDK.DynamoDBv2": {
+              "target": "Package",
+              "version": "[3.7.3.51, )"
+            },
+            "Amazon.Lambda.APIGatewayEvents": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "Amazon.Lambda.Core": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Amazon.Lambda.Serialization.SystemTextJson": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Crossgen2.win-x64",
+              "version": "[6.0.2, 6.0.2]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "g:\\WorkCopy\\PruebasWork\\MercadoLibre\\MercadoLibre.Mutant.APIREST\\InfrastructureAsCode\\lambda-function\\lambdaMutant\\test\\lambdaMutant.Tests\\lambdaMutant.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "g:\\WorkCopy\\PruebasWork\\MercadoLibre\\MercadoLibre.Mutant.APIREST\\InfrastructureAsCode\\lambda-function\\lambdaMutant\\test\\lambdaMutant.Tests\\lambdaMutant.Tests.csproj",
+        "projectName": "lambdaMutant.Tests",
+        "projectPath": "g:\\WorkCopy\\PruebasWork\\MercadoLibre\\MercadoLibre.Mutant.APIREST\\InfrastructureAsCode\\lambda-function\\lambdaMutant\\test\\lambdaMutant.Tests\\lambdaMutant.Tests.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "g:\\WorkCopy\\PruebasWork\\MercadoLibre\\MercadoLibre.Mutant.APIREST\\InfrastructureAsCode\\lambda-function\\lambdaMutant\\test\\lambdaMutant.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "g:\\WorkCopy\\PruebasWork\\MercadoLibre\\MercadoLibre.Mutant.APIREST\\InfrastructureAsCode\\lambda-function\\lambdaMutant\\src\\lambdaMutant\\lambdaMutant.csproj": {
+                "projectPath": "g:\\WorkCopy\\PruebasWork\\MercadoLibre\\MercadoLibre.Mutant.APIREST\\InfrastructureAsCode\\lambda-function\\lambdaMutant\\src\\lambdaMutant\\lambdaMutant.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Amazon.Lambda.Core": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Amazon.Lambda.TestUtilities": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[15.5.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.3.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.3.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

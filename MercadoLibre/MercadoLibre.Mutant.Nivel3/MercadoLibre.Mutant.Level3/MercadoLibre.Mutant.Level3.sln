@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MercadoLibre.Mutant.Level3", "MercadoLibre.Mutant.Level3", "{6D9E62A7-3591-4D79-9452-491EDFDCAA89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MercadoLibre.Mutant.Level3", "MercadoLibre.Mutant.Level3\MercadoLibre.Mutant.Level3\MercadoLibre.Mutant.Level3.csproj", "{327BE9D2-4F69-46DE-9C70-592DFBA1513C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MercadoLibre.Mutant.Level3.DNABD", "MercadoLibre.Mutant.Level3.DNABD", "{FBA9F212-9761-4AFB-B18E-67C44A517ACE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LambdaMutantDNABD", "LambdaMutantDNABD", "{BB4C2A17-F777-4D8B-88FF-D05B37853A8A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CA41FBF5-8C42-4F09-BF91-DA51B34D033F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LambdaMutantDNABD", "MercadoLibre.Mutant.Level3.DNABD\LambdaMutantDNABD\src\LambdaMutantDNABD\LambdaMutantDNABD.csproj", "{FD88FA5E-E16E-48DF-B090-47085B073C85}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{327BE9D2-4F69-46DE-9C70-592DFBA1513C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{327BE9D2-4F69-46DE-9C70-592DFBA1513C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{327BE9D2-4F69-46DE-9C70-592DFBA1513C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{327BE9D2-4F69-46DE-9C70-592DFBA1513C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD88FA5E-E16E-48DF-B090-47085B073C85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD88FA5E-E16E-48DF-B090-47085B073C85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD88FA5E-E16E-48DF-B090-47085B073C85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD88FA5E-E16E-48DF-B090-47085B073C85}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{327BE9D2-4F69-46DE-9C70-592DFBA1513C} = {6D9E62A7-3591-4D79-9452-491EDFDCAA89}
+		{BB4C2A17-F777-4D8B-88FF-D05B37853A8A} = {FBA9F212-9761-4AFB-B18E-67C44A517ACE}
+		{CA41FBF5-8C42-4F09-BF91-DA51B34D033F} = {BB4C2A17-F777-4D8B-88FF-D05B37853A8A}
+		{FD88FA5E-E16E-48DF-B090-47085B073C85} = {CA41FBF5-8C42-4F09-BF91-DA51B34D033F}
+	EndGlobalSection
+EndGlobal

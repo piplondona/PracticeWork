@@ -1,3 +1,7 @@
+# Mercado Libre Mutant Project
+Corresponde a la primer desafio del examen, el cual es una aplicacion tipo consola en .net, que detecta si el ADN ingresado corresponde a un mutante o humano
+
+## Here are some steps to execute application:
 Instrucciones de ejecución:
 
 1. Instalar el SDK de .NET 6.0. En esta direccion se puede descargar: https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-6.0.6-windows-x64-installer
